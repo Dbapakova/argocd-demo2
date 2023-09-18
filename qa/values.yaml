@@ -17,7 +17,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: []
-  - secretName: artemis-tls
-    hosts:
-      - artemis-qa.dbapakova.com
+  tls:
+    - secretName: artemis-qa-tls
+      hosts:
+        - artemis-qa.dbapakova.com

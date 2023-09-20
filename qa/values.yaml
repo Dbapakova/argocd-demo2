@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: https://github.com/farrukh90/artemis.git
+  repository: us-central1-docker.pkg.dev/terraform-project-bapakova/artemis
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "9.0.0"
